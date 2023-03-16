@@ -1,0 +1,73 @@
+
+orian@Oriana MINGW64 ~
+$ git clone https://github.com/SchinoccaO/PrepCourse-Henry.git
+Cloning into 'PrepCourse-Henry'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+orian@Oriana MINGW64 ~
+$ cd Pre
+bash: cd: Pre: No such file or directory
+
+orian@Oriana MINGW64 ~
+$ cd PrepCourse-Henry
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ code .
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ git ad README.md
+git: 'ad' is not a git command. See 'git --help'.
+
+The most similar commands are
+        add
+        am
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ git add README.md
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ git commit -m "Hola hola"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'orian@Oriana.(none)')
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ ^
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ git config --global user.email "you@example.com"
+git confing --global user.email 'orianaschinocca@gmail.com'
+git: 'confing' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ git config --global user.email "orianaschinocca@gmail.com"
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ git config --global user.name "oriana"
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ git add README.md
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$ git commit -m 'descripcion del commit'
+[main 16eb9fd] descripcion del commit
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+orian@Oriana MINGW64 ~/PrepCourse-Henry (main)
+$
